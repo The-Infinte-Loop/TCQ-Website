@@ -6,10 +6,7 @@ header
 	background-attachment: fixed;
 	background-position: center;
 }
-#iconbtn
-{
-	background-color: #8d93ab;
-}
+
 .navbar-nav .nav-link{
 	position: relative;
 	color: #cd0a0a;
@@ -27,7 +24,7 @@ header
 	position: absolute;
 	width: 0;
 	height: 3px;
-	background-color:#cd0a0a;
+	background-color:#e94560;
 	transition: .5s;
 	opacity: 0;
 }
@@ -44,9 +41,24 @@ right:0;
 .nav-link:hover:before, .nav-link:hover:after{
 	opacity: 1;
 	width: 100%;
-	color: #d6e0f0;
+	color: #e94560;
 	transition: .5s;
 }
+.nav-link:hover
+{
+ text-shadow: 2px 1px #e94560;
+}
+.black
+{
+  background-color: black;
+
+}
+.navbar-toggler
+{
+  
+  background-color: white;
+}
+
 h1
 {
 	text-align: center;

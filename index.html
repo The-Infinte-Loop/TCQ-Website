@@ -17,10 +17,10 @@
 <script>
 $(document).ready(function(){
   $("#iconbtn").click(function(){
-    $(".navbar").css("background-color","rgba(6, 12, 34, 0.9)");
+    $(".navbar").toggleClass("black");
   });
    $("#iconbtn").click(function(){
-    $(".navbar").css("background-color","rgba(0,0,0,0.7)");
+    $("#intro").fadeToggle();
   });
 });
 </script>
@@ -44,13 +44,17 @@ $(document).ready(function(){
   <a class="navbar-brand" href="#">
   	 <img class="logo-navbar" src="img/Chaotic quills logo white.png" width="150px;">
   </a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar" id="iconbtn">
+ <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar" id="iconbtn">
     <span class="navbar-toggler-icon"></span>
+ 
   </button>
+
   <div class="collapse navbar-collapse" id="collapsibleNavbar">
+ 
+      
     <ul class="navbar-nav">
       <li class="nav-item">
-        <a class="nav-link" href="#home" style="color: #f1f3f8;">Home</a>
+        <a class="nav-link" href="#intro" style="color: #f1f3f8;">Home</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="#about" style="color: #f1f3f8;">About</a>
@@ -79,8 +83,8 @@ $(document).ready(function(){
        <li class="nav-item">
         <a class="nav-link" href="#" style="color: #f1f3f8;"><i class="fas fa-sign-in-alt"></i>  Login</a>
       </li>  
-    </ul>
-  </div>  
+    </ul></li></ul>
+  </div> 
 </nav>
 <section id="intro">
     <div class="intro-container" data-aos="zoom-in" data-aos-delay="5000000000">
