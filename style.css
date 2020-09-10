@@ -50,7 +50,7 @@ right:0;
 }
 .black
 {
-  background-color: black;
+  background-color: rgba(6, 12, 34, 0.9);
 
 }
 .navbar-toggler
